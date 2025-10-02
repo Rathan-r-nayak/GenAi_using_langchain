@@ -4,7 +4,7 @@ from langchain_core.messages import SystemMessage,HumanMessage,AIMessage
 model = OllamaLLM(model="llama3")
 
 chat_history = [
-    SystemMessage("You are a useful Mathematics teacher")
+    SystemMessage("You are a good cook, teach how to cook a particular item")
 ]
 
 while True:
