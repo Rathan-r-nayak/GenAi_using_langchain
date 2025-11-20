@@ -1,3 +1,6 @@
 /langchain_env/
 .env
-**/data/
+**/data/*
+!**/data/.gitkeep
+*.jpeg
+*.bin
